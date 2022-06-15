@@ -2,7 +2,7 @@
 body{
 	margin: 1%;
 	padding:1%;
-	background-color: rgba(0,0,255,.2);
+background-color: rgb(204, 204, 255) ;
 	font-size: 100%;
 	min-width: 500px;
 
@@ -72,24 +72,314 @@ footer{
 /* small screens */
 @media all and (min-width:320px){
     
-    body{
-        background-color: rgb(165, 120, 120);
-    }
+    
+	body{
+		margin: 1%;
+		padding:1%;
+		background-color: rgb(204, 204, 255) ;
+		font-size: 100%;
+		
+	
+	}
+	header, footer{
+		background-color: rgb(204, 204, 255) ;
+	  padding: 1%;
+	  margin: 1%;
+	  width: 95%;
+	}
+	header h1{
+		font-size: 2rem;
+		color:rgba(0,0,0,.7);
+		width: 95%;
+	
+	}
+	
+	section{
+	  margin:1%;
+		padding:1%;
+		/* display: inline-block; */
+		width: 95%;
+		text-align: center;
+	}
+	img{
+		width: 35%;
+		padding: 10px;
+		
+	}
+	div{
+		text-align: center;
+	}
+	nav a{
+		display:inline-block;
+		box-sizing: border-box;
+		background-color: white;
+		border: 1px solid black;
+		text-align: center;
+		border-radius: 35px;
+		text-decoration: none;
+		padding: 2%;
+		margin: 1%;
+		
+	}
+	
+	h1{
+		text-align: center;
+		color:rgba(255,0,0,.7);;
+	}
+	
+	
+	.myClass{
+		margin: 0em 1em;
+		padding:.75em;
+		border: 1px solid black;
+		border-radius: .25%;
+		display: inline-block;
+		width: 95%;
+	
+		/* Safari and Chrome */	
+		-webkit-column-count:3;
+		-moz-column-count: 3;
+		column-count:3;
+		
+	}
+	
+	
+	
+	ol{
+		list-style:upper-roman; 
+		margin:1em;
+	}
+	/* img{
+		display: none;
+	} */
+	
+	footer{
+		clear: both;
+		text-align:center;
+		text-transform: uppercase;
+		width: 95%;
+		
+	}
+	#left{
+		text-align: left;
+	}
+	
 }
 
 /* medium-sized screens */
-@media all and (min-width:778px){
+@media all and (min-width:680px){
     body{
-        background-color: rgb(85, 85, 110);
-    }
+		margin: 1%;
+		padding:1%;
+		
+		background-color: rgb(204, 204, 255) ;
+		font-size: 100%;
+		
+	
+	}
+	header, footer{
+		background-color: rgb(204, 204, 255) ;
+	  padding: 1%;
+	  margin: 1%;
+	  width: 95%;
+	}
+	
+	header h1{
+		font-size: 2.5rem;
+		color:rgba(0,0,0,.7);
+		width: 95%;
+	
+	}
+	
+	section{
+	  margin:1%;
+		padding:1%;
+		/* display: inline-block; */
+		width: 95%;
+		text-align: center;
+	}
+	img{
+		width: 40%;
+		padding: 10px;
+		
+	}
+	div{
+	
+		text-align: center;
+	}
+	nav{
+		text-align: center;
+	}
+	nav a{
+		display:inline-block;
+		box-sizing: border-box;
+		background-color: white;
+		border: 1px solid black;
+		
+		border-radius: 35px;
+		text-decoration: none;
+		padding: 2%;
+		margin: 1%;
+		width: 45%;
+		
+		
+	}
+	#left{
+		text-align: left;
+	}
+	h1{
+		text-align: center;
+		color:rgba(255,0,0,.7);;
+	}
+	
+	
+	.myClass{
+		margin: 0em 1em;
+		padding:.75em;
+		border: 1px solid black;
+		border-radius: .25%;
+		display: inline-block;
+		width: 95%;
+	
+		/* Safari and Chrome */	
+		-webkit-column-count:3;
+		-moz-column-count: 3;
+		column-count:3;
+		
+	}
+	
+	
+	
+	ol{
+		list-style:upper-roman; 
+		margin:1em;
+	}
+	/* img{
+		display: none;
+	} */
+	
+	footer{
+		clear: both;
+		text-align:center;
+		text-transform: uppercase;
+		width: 95%;
+	}
+	
+
 }
 
 
 /* Big screens */
-@media all and (min-width:1200px){
-    body{
-        background-color: rgb(139, 134, 134);
-    }
+@media all and (min-width:900px){
+	body{
+		margin: 1%;
+		padding:1%;
+		
+		background-color: rgb(204, 204, 255) ;
+		font-size: 100%;
+		text-align: center;
+		
+	
+	}
+	header, footer{
+	background-color: rgb(204, 204, 255) ;
+	  padding: 1%;
+	  margin: 1%;
+	  width: 95%;
+	}
+	
+	header h1{
+		font-size: 3rem;
+		color:rgba(0,0,0,.7);
+		width: 95%;
+	
+	}
+	
+	section{
+	  margin:1%;
+		padding:1%;
+		display: inline-block;
+		
+				
+	}
+	div{
+		padding: 0;
+		margin: 0;
+	}
+	img{
+		width: 20%;
+		
+		
+	}
+	
+	nav a{
+		display:block;
+		box-sizing: border-box;
+		background-color: white;
+		border: 1px solid black;
+		border-radius: 35px;
+		text-decoration: none;
+		padding: 2%;
+		margin: 1%;
+		width: 95%;
+		
+		
+	}
+
+	#left{
+		text-align: left;
+		float: left;
+		width: 35%;
+		
+	}
+	#center{
+	
+		width: 55%;
+	}
+	h1{
+		
+		color:rgba(255,0,0,.7);;
+	}
+	h2{
+		text-align: left;
+	}
+	
+	.myClass{
+		margin: 0em 1em;
+		padding:.75em;
+		border: 1px solid black;
+		border-radius: .25%;
+		display: inline-block;
+		width: 95%;
+	
+		/* Safari and Chrome */	
+		-webkit-column-count:3;
+		-moz-column-count: 3;
+		column-count:3;
+		text-align: left;
+		
+	}
+	
+	
+	
+	ol{
+		list-style:upper-roman; 
+		margin:1em;
+	}
+	/* img{
+		display: none;
+	} */
+	footer p{
+		text-align: right;
+		padding-right: 25%;
+	}
+	footer{
+		clear: both;
+		text-align:center;
+		text-transform: uppercase;
+		width: 95%;
+	}
+	
 }
 /* @media print {
     div{
